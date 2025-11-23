@@ -1,3 +1,15 @@
+# 1.0.0 (2025-11-23)
+
+
+### Bug Fixes
+
+* add missing package files for npm release ([d70d685](https://github.com/aself101/trefle-api/commit/d70d68581cc81f6a4252d3de8846fc046d90bd9d))
+
+
+### Features
+
+* initial release of trefle-api ([b0165fc](https://github.com/aself101/trefle-api/commit/b0165fc85b71aaf6e1f4a66217cd2415d89ca27e))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
