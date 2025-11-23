@@ -1,0 +1,55 @@
+{
+  "name": "trefle-api",
+  "version": "1.0.0",
+  "description": "Node.js client library and CLI for the Trefle Plants REST API",
+  "main": "api.js",
+  "type": "module",
+  "bin": {
+    "trefle": "./cli.js"
+  },
+  "keywords": [
+    "trefle",
+    "plants",
+    "botany",
+    "api",
+    "flora",
+    "taxonomy",
+    "species",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aself101/trefle-api.git"
+  },
+  "homepage": "https://github.com/aself101/trefle-api#readme",
+  "bugs": {
+    "url": "https://github.com/aself101/trefle-api/issues"
+  },
+  "author": "",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "trefle": "node cli.js",
+    "trefle:help": "node cli.js --help",
+    "trefle:all": "node cli.js --all",
+    "trefle:plants": "node cli.js --plants --pages 10",
+    "trefle:dry-run": "node cli.js --all --dry-run"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@vitest/coverage-v8": "^1.0.4",
+    "semantic-release": "^24.2.9",
+    "vitest": "^1.0.4"
+  }
+}

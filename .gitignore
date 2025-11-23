@@ -19,8 +19,10 @@ datasets/
 *.jpeg
 *.webp
 *.gif
-*.json
-*_metadata.json
+
+# Don't ignore package.json files
+!package.json
+!package-lock.json
 
 # Logs
 logs/
